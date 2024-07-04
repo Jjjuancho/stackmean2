@@ -1,0 +1,21 @@
+GET http://localhost:3000/api/songs
+
+###
+
+GET http://localhost:3000/api/songs/666625887f9eeabf72dee3b0
+
+###
+
+POST http://localhost:3000/api/songs
+Content-Type: application/json
+
+{
+    "title": "Despacito",
+    "artist": "Luis Fonsi",
+    "genre": "Pop",
+    "album": "Vida",
+    "duration": 228,
+    "year": 2017,
+    "trackNumber": 1,
+    "isExplicit": false
+  }
